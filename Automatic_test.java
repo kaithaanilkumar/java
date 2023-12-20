@@ -15,11 +15,11 @@ class Automatic_test
 				System.out.println(rem);
 				if(rem==temp)
 				{
-					System.out.println("automatic number");			
+					System.out.println("automatic num");			
 				}
 				else
 				{
-					System.out.println("not automatic number");
+					System.out.println("not automatic num");
 				}
 				
 	}
