@@ -17,7 +17,7 @@ class bank
 				brea
 
 				case 2:
-				System.out.println("existed name:"+cust_name+"\n"+"the updated name:ram kumar");
+				System.out.println("existed name:"+cust_name+"\n");
 				
 				
 				case 3:
