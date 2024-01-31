@@ -1,1 +1,167 @@
-hi all.how are
+package com.basicprograms.loops;
+
+import java.util.Scanner;
+
+public class project
+{
+
+	public static void main(String[] args) 
+	{
+		electric ref=new electric();
+		Scanner s=new Scanner(System.in);
+		System.out.println("wellcome to anil  bikes showroom");
+		System.out.println("in the showroom 50thousand bikes are there do you want buy press yes either no");
+		String st=s.next();
+		if(st.equalsIgnoreCase("yes"))
+		{
+			
+		
+		System.out.println("ELECTRIC BIKES RATE");
+		ref.getele();
+		System.out.println("enter  bikes");
+		String ss=s.next();
+		if(ss.equalsIgnoreCase("bikes"))
+		{
+			ref.different();
+		}
+		String sk=s.next();
+		if(sk.equalsIgnoreCase("electricbikes"))
+		{
+			ref.electricbicks();
+			String sb=s.next();
+			if(sb.equalsIgnoreCase("scooters"))
+			{
+				ref.scooters();
+				String sm=s.next();
+				if(sm.equalsIgnoreCase("ElectricMountainBikes"))
+				{
+					ref.electricmountainbick();
+				}
+				else if(sm.equalsIgnoreCase("City/Urban Electric Bikes"))
+				{
+					ref.cityelectricbick();
+				}
+				else if(sm.equalsIgnoreCase("Electric Folding Bikes "))
+				{
+					ref.electricfolding();
+				}
+				else
+				{
+					System.out.println("this model not there");
+				}
+			}
+			else if(sb.equalsIgnoreCase("motorbikes"))
+			{
+				ref.motorbicks();
+					String sl=s.next();
+				if(sl.equalsIgnoreCase("StreetElectric"))
+				{
+					ref.street();
+				}
+				else if(sl.equalsIgnoreCase("SportElectric"))
+				{
+					ref.sport();
+				}
+			}
+		}
+		
+		else if(sk.equalsIgnoreCase("petrolbikes"))
+		{
+			ref.petrol();
+			String si=s.next();
+			if(si.equalsIgnoreCase("minibikes"))
+			{
+				ref.mini();
+			}
+			else if(si.equalsIgnoreCase("offroadbikes"))
+			{
+				ref.road();
+			}
+		}
+	}
+	else
+	{
+		System.out.println("better luck next time");
+	}
+}
+}
+interface i1
+{
+	public void bikes();
+	
+}
+abstract class bikes
+{
+	 public void different()
+	{
+		System.out.println("THESE ARE TYPES OF BICKS");
+		System.out.println("ELECTRIC BIKES");
+		System.out.println("PETROL BIKES");
+	}
+	 abstract public void petrol();
+}
+class electric extends bikes
+{
+	private int ele=50000;
+	
+	public void getele()
+	{
+		System.out.println(ele+" it is an starting rate of an electric bikes");
+	}
+	public void bick()
+	{
+		super.different();
+	}
+	public void electricbicks()
+	{
+		System.out.println(" Scooters ");
+		System.out.println(" motor bikes");
+	}
+	public void scooters()
+	{
+		 System.out.println("City/Urban Electric Bikes \n Electric Mountain Bikes (eMTBs) \n Electric Folding Bikes");
+	}
+	public void electricmountainbick()
+	{
+		 System.out.println("Off-road adventures.\n Strong frames and tires for rough terrain. \n its cost is 45000");
+	}
+	public void cityelectricbick()
+	{
+		 System.out.println("For city commuting.\n Easy to ride with features like lights and racks. \n its cost 50000");
+	}
+	public void electricfolding()
+	{
+		 System.out.println("Compact and easy to store. \n Great for commuters and limited space. \n its cost 100000");
+	}
+	public void motorbicks()
+	{
+		 System.out.println("Street Electric  \n Sport Electric");
+	}
+	public void street()
+	{
+		 System.out.println("Designed for urban commuting and highway cruising.\r\n"
+		 		+ "Offer sleek designs and high-performance capabilities.\r\n"
+		 		+ "Typically equipped with features like regenerative braking and digital displays. \n its cost is 10000");
+	}
+	public void sport()
+	{
+		 System.out.println("Geared towards enthusiasts and performance-oriented riders.\r\n"
+		 		+ "Provide exhilarating acceleration and high speeds.\r\n"
+		 		+ "Often feature advanced suspension systems and lightweight frames for agility.\n its cost is 150000");
+	}
+	@Override
+	public void petrol() 
+	{
+		System.out.println("MiniBikes \nOff-RoadBikes");
+	}
+	public void mini()
+	{
+		System.out.println("Small and lightweight, mini bikes are great for beginners or casual riders. They're simple, easy to handle, and often used for recreational purposes in backyards or off-road tracks");
+	}
+	public void road()
+	{
+		System.out.println("Built for rough terrain, off-road bikes feature rugged construction, knobby tires, and long-travel suspension to handle dirt trails and rocky paths. They're straightforward and fun for exploring nature.");
+	}
+		
+}
+
