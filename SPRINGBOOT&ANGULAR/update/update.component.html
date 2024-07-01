@@ -1,0 +1,31 @@
+<head>
+    <style>  
+    table, th, td {  
+        border: 1px solid black;  
+        border-collapse: collapse;  
+    }    
+    th, td {
+        padding: 10px;
+    }
+    </style>  
+    </head>
+  <div style="margin-top: 10px;">
+      <form #reference="ngForm" (ngSubmit)="updata(reference)" style="text-align: center;">
+        <table class="center">
+         <tr><th> ID:</th>
+     <td><input type="text" name="id" [(ngModel)]="result.id"></td></tr>
+     <tr><th>Name:</th>
+     <td><input type="text" name="name" [(ngModel)]="result.name"></td></tr>
+     <tr><th>Branch:</th>
+      <td><input type="text" name="branch" [(ngModel)]="result.branch"></td></tr>
+    <tr><th>address:</th>
+     <td><input type="text" name="address" [(ngModel)]="result.address"></td></tr>
+     <tr><th>fee:</th>
+     <td><input type="text" name="fee" [(ngModel)]="result.fee"></td></tr>
+      <tr><td colspan="2"><h5> <input type="submit" value="submit">
+    <input type="button" value="table data" style="margin-left: 10px;" [routerLink]="'/select'"></h5></td></tr>
+        </table>
+  </form>
+  
+  </div>
+  
