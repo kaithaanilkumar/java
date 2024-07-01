@@ -1,0 +1,224 @@
+<html>
+  <head>
+     <style>
+	 img
+	 {
+	 width:750px;
+	 height:170px;
+	 }
+	 .navagation
+	 {
+	 border:2px solid black;
+	 margin:3px;
+	 padding:10px;
+	 display:flex;
+	 }
+	 a
+	 {
+	 padding:2px;
+	 margin:3px;
+	 text-transform:uppercase;
+	 text-decoration:none;
+	 font-family:Arial;
+	 font-style:Time New Roman;
+	 }
+	 a:hover
+	 {
+	 background-color:brown;
+	 color:white;
+	 }
+	 .one
+	 {
+	  width:400px;
+	  height:300px;
+	  margin:0px;
+	 padding:0px;
+	 border:0px;
+	 }
+	 .content
+	 {
+	 display:inline-flex;
+	
+	 }
+	 p
+	 {
+	 float;right;
+	 }
+	 #important
+	 {
+	 text-align:right;
+	 border:1px;
+	 margin:2px;
+	 padding:2px;
+	 height:100px;
+	 }
+	 p
+	 {
+	 clear:right;
+	 }
+	 P
+	 {
+	 border:2px ;
+	 margin:20px;
+	 text-align:justify;
+	 }
+	 .raya
+	 {
+	 position:relative;
+	 left:20px;
+	 }
+	 .container
+	 {
+	 display:flex;
+	 border:1px solid #ffe6e6;
+	 }
+	 .push-right
+	 {
+	 display:flex;
+	 justify-content;flex-end;
+	 align-items:center;
+	 display:flex;
+	 margin-left:500px;
+	 padding-top:6px;
+	 }
+	 #one
+	 {
+	  align-items:center;
+	  padding-top:6px;
+	 }
+	 .footer
+	 {
+	 margin:50px;
+	 padding:30px;
+	 border-radius:10px;
+	 }
+	 .footer
+	 {
+	 border-radius:10px
+	 display:inline-block;
+	 margin-left:15px;
+	 }
+	#App
+	{
+	font-size: 1em !important;
+	background-color:DarkMagenta;
+	border:1px solid;
+    padding:30px;
+	border-radius:10px;
+	color:white;
+	margin:2px;
+	}
+	#Bank
+	{
+	font-size: 1em !important;
+	background-color:DarkRed;
+	border:1px solid;
+    padding:30px;
+	border-radius:10px;
+	color:white;
+	margin:2px;
+	}
+	#Cheque
+	{
+	font-size: 1em !important;
+	background-color:GoldenRod;
+	border:1px solid;
+    padding:30px;
+	border-radius:10px;
+	color:white;
+	margin:2px;
+	}
+	#App:hover
+	{
+	color:black;
+	background-color:brown;
+	}
+	#Bank:hover
+	{
+	color:black;
+	background-color:HoneyDew;
+	}
+	#Cheque:hover
+	{
+	color:black;
+	background-color:brown;
+	}
+    #data
+	{
+	color:blue;
+	}
+
+	 </style>
+  </head>
+     <body>
+	     <div class="container">
+                     <a href="#" lang="te"><strong>రైతు బంధు </strong></a><hr>
+                     <a id="one" href="#" title="External site that opens in a new window" target="_blank">GOVERNMENT
+                                OF TELANGANA</a><hr>
+								      
+         <div class="push-right"><hr>
+					<a id="data" href="#SkipContent" class="skip-to-content mFocus" title="Skip to main content"><span class="icon-skip-to-main responsive-show"></span><b class="responsive-hide">SKIP TO
+                                    MAIN CONTENT</b></a>
+                           <a href="#" title="Font Size Increase"><span aria-hidden="true">A+</a>
+							<a href="#" title="Normal Font"><span aria-hidden="true">A</a>
+                            <a href="#" title="Font Size Decrease"><span aria-hidden="true">A-</a>
+                            <a href="#" title="Change Contrast"><span aria-hidden="true">
+                                           A</a></li> 
+							<a href="#" class="change-language">English</a> 										   
+				   </div>                    
+                   </div>
+				   
+	   <!--<img src="https://4.bp.blogspot.com/-wqQQfFyGMQQ/WvPq8f86oNI/AAAAAAAAWOQ/ps4dqGlvYs8FmdDdtRcdYz4thfSYjgBPACLcBGAs/s1600/Rythu%2BBandhu%2Bpng%2Blogo%2Bfree%2Bdownloads.png">-->
+	   <div>
+	      <!--<img src="https://assets.thehansindia.com/h-upload/2020/06/25/979620-telangana-government.webp">-->
+		  <img src="https://govtschemes.in/sites/default/files/styles/max_width_500px/public/2022-06/Rythu%20Bandhu%20Scheme%20Logo.jpg?itok=P748x-N9">
+       </div> 
+	   <div class="navagation">
+	      <div class="box">
+	         <a href="https://rythubandhu.telangana.gov.in/Default.aspx">home</a>
+	         <a href="#">about raythu banadhu</a>
+	         <a href="https://rythubandhu.telangana.gov.in/state_comm.aspx">committes</a>
+	         <a href="https://rythubandhu.telangana.gov.in/Events_List.aspx">photo gallary</a>
+             <a href="https://rythubandhu.telangana.gov.in/Login.aspx">department lodin</a>
+             <a href="https://rythubandhu.telangana.gov.in/Contactus.aspx?">key contacts</a>
+		  </div> 
+          </div>
+             <marquee>
+			 <div class="content">
+ 		       <img class="one" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv82JYxcbFpefJD4_fKdzTVNOc5wvEpl-qOQ&usqp=CAU"> 
+               <img class="one" src="https://keralakaumudi.com/web-news/en/2023/06/NMAN0421720/image/paddy-.1.2238184.jpg">	
+               <img class="one" src="https://th-i.thgim.com/public/incoming/p92d6z/article66941313.ece/alternates/FREE_1200/IMG_paddy_farmers_2_1_4PAICU2T.jpg">
+		  </div>
+		 </marquee>	
+		 <table>
+		 <tr>
+		 <td>
+		   <h3 class="raya">RYTHU BANDHU</h3>
+		   <p> Investment is the surest way to enhance agriculture productivity and also income to the farmers, besides breaking the vicious cycle of rural indebtedness. In order to ensure that the farmers do not fall again in to the debt trap, a new scheme called “Agriculture Investment Support Scheme” (“Rythu Bandhu”) is proposed to be implemented from the year 2018-19 Kharif season onwards to take care of initial investment needs of every farmer. A budget of Rs.12,000 Crores has been provided for the financial year 2018-19 by Government of Telangana.</p>
+		    <p> Relieving the Farmers from debt burden and not allowing them to fall in the debt trap again, Rythu Bandhu Scheme is proposed by Government of Telangana for providing Investment Support Agriculture and Horticulture crops by way of grant of Rs. 5,000/- per acre per farmer each season for purchase of inputs like Seeds, Fertilizers, Pesticides, Labour and other investments in the field operations of Farmer’s choice for the crop season.</p>
+			</td>
+			<td> <h3 class="raya">INFORMATION</h3>
+			<marquee direction="up">
+			<a href="file:///C:/Users/kaith/Downloads/G.O.Rt_%20No.231AD.pdf">G.O. Rt No. 231 Guidelines for Implementation of Agriculture Investment Support Scheme Rythu Bandhu in Telangana State</a><br>
+	        <a href="#">New Claim Form Download</a>
+    	<a href="file:///C:/Users/kaith/Downloads/G.O.Rt_%20No.231AD.pdf" >6377-Lr to Dist Collectors 08.10.2018</a><br>
+ 		<a href="file:///C:/Users/kaith/Downloads/G.O.Rt_%20No.231AD.pdf">Bank Details Collection Form</a><br>
+		<a href="file:///C:/Users/kaith/Downloads/G.O.Rt_%20No.231AD.pdf">6377- Lr to District Collectors 14.10.2018</a><br>
+ 		<a href="file:///C:/Users/kaith/Downloads/G.O.Rt_%20No.231AD.pdf">Draft declaration for Aadhar Authentication</a><br>
+ 		<a href="file:///C:/Users/kaith/Downloads/G.O.Rt_%20No.231AD.pdf">Give it up proforma</a>
+				</marquee></td></tr></table>
+				
+			<div class="footer" >
+				<a  id="App" href="RDLCReports/MobileAPK/RythuBandhu.apk" title="GO"><span class="list-icon "></span>
+						Download Mobile App
+				</a>
+                 <a id="Bank" href="ParticipatingBanks.aspx" title="Participating Banks">
+                             <span class="list-icon "></span>
+                                        Participating Banks            
+                  </a>
+                   <a id="Cheque" href="Rpt_ChequeDBShedule_out.aspx" title="Grievance"><span class="list-icon "></span>
+                           Cheque Distribution Venue Schedule
+                          </a>
+            </div>
+	 </body>	 
+</html>	 
